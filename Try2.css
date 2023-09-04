@@ -4552,7 +4552,6 @@ body{
 
 @media screen and (max-width: 450px) {
     body{
-        margin-left: 1em;
         background-image: url('BGs/mobileBG.jpg');
         background-size: 100%;
         background-position-x: 0.5em;
@@ -4564,7 +4563,7 @@ body{
     .header{ 
     margin-left: -4em;
     margin-bottom: 2em;
-    gap: 18em;
+    gap: 17em;
     }
 
     /* close button in menu button */

@@ -4551,132 +4551,135 @@ body{
 /* screen size = 450px (mobile screen) */
 
 @media screen and (max-width: 450px) {
+     html{
+        margin-right: -1.5em;
+    }
     body{
         background-image: url('BGs/mobileBG.jpg');
         background-size: 100%;
         background-position-x: 0.5em;
         background-position-y: 0em;
     }
-    
+
     /* header container */
-    
+
     .header{ 
     margin-left: -4em;
     margin-bottom: 2em;
     gap: 17em;
     }
-    
+
     /* close button in menu button */
-    
+
     .close{
         left: 24em;
         height: 2.5em;
         width: 2em;
     }
-    
+
     /* hero floating graphics */
-    
+
     .colorPalate{
         top: 8em;
         left: 4em;
     }
-    
+
     .figma{
         top: 12em;
         left: 4em;
     }
-    
+
     .illustrator{
         top: 7em;
         right: 10em;
     }
-    
+
     .photoshop{
         top: 21em;
     }
-    
+
     .pen{
         right: 3em;
     }
-    
+
     .rightBox{
         right: 4em;
     }
-    
+
     .lampGlow{
         top: 20em;
     }
-    
+
     .glow{
         top: 20em;
     }
-    
+
     .mouse{
         top: 26em;
         right: 5em;
     }
-    
+
     /* hero section container */
-    
+
     .hero{
         margin-left: 1.5em;
     }
-    
+
     .heroText{
         margin-left: -2em;
     }
-    
+
     /* hero title */
-    
+
     .heroText h1{
     margin-left: 0.2em;
     font-size: 3.3rem;
     }
-    
+
     /* hero subtitle (Graphic Designer) */
-    
+
     .heroText h3{
         margin-left: 0.2em;
         font-size: 2.2rem;
         margin-bottom: 1.4em;
     }
-    
+
     /* hero paragraph */
-    
+
     .heroText p{
         padding: 0 2.5em;
         font-size: 1em;
     }
-    
+
      /* menu cirle when scrolling */ 
-    
+
      .heroHeaderCircle{
         right: 2.3em;
         z-index: 6;
         width: 14%;
     }
-    
+
     #menucircle img{
         width: 45%;
         height: 1.2em;
         margin-left: 1.1em;
         margin-bottom: 1.4em;
     }
-    
+
     #homecircle{
         right: 2.5em;
         padding: 1.8em 0.2em;
         width: 12%;
         height: 0%; 
     }    
-    
+
     #aboutcircle{
         right: 2.5em;
         padding: 1.8em 0.2em;
         width: 12%;
         height: 0%; 
     }
-    
+
     #workcircle {
         right: 2.5em;
         padding: 1.8em 0.2em;
@@ -4690,79 +4693,148 @@ body{
         width: 12%;
         height: 0%; 
     } 
-    
+
     #closecircle img{
         margin-bottom: 0.8em;
         margin-left: 1.25em;
     }
-    
+
     /* about me section */
-    
+
     .about{
         margin: 1em 0em;
     }
-    
+
     .compass{
         width: 12%;
         right: 1em;
         top: 0.5em;
     }
-    
+
     /* about me title */ 
-    
+
     .aboutText h1 {
         font-size: 2.5rem;
     }
-    
+
     /* about me paragragh */
-    
+
     .aboutText p {
         width: 135%;
         margin-left: -1.5em;
         font-size: 1.2rem;
     }
-    
+
     /* experience section in about me */
-    
+
     .aboutExperience{
         margin-left: -2em;
     }
-    
+
     .aboutExperience .experience h1{
         font-size: 3rem
     }
-    
+
     .aboutExperience .experience p{
         margin-left: -0.5em;
         font-size: 2rem;
         margin-bottom: 0em;
     }
-    
+
     /* projectsAndClieants { display: flex } ----> in mobile screen */  
-    
+
     .projectsAndclients{
         display: flex;
         gap: 5em;
         margin-top: -3em;
         justify-content: center;
     }
-    
+
     .projectsAndclients .projects h1{
         font-size: 2.8rem;
     }
-    
+
     .projectsAndclients .projects p{
         margin-left: 0.2em;
         font-size: 1.4rem;
     }
-    
+
     .projectsAndclients .clients h1{
         font-size: 2.8rem;
     }
-    
+
     .projectsAndclients .clients p{
         margin-left: 0em;
         font-size: 1.4rem;
     }
 
+    /*my works section */
+
+    .myWorks{
+        margin-top: 18em;
+        padding-bottom: 0em;
+        height: 65em;
+    }
+
+    .penTool{
+        width: 10%;
+        top: 126.2em;
+        left: 7em;
+    }
+
+    /* my works title */
+
+    .myWorks h1{
+        font-size: 2.5rem;
+    }
+
+    /*posters and UI/UX btn*/
+
+    .myWorksContent{
+        margin: 0;
+        gap: 8em;
+    }
+
+    /* posters and UI/UX buttons */
+
+    .myWorksContent h3{
+        font-size: 1.8rem;
+    }
+
+    /* my works container */
+
+    .myWorksContainer{
+        margin: 1em 2em;
+        height: 45em;
+    }
+
+    .myWorksContainerProjectsTextLink{
+        left: 5em;
+        top: 122em;
+    }
+
+    .mySlidesFade{
+        margin-left: 5.5em;
+    }
+
+    .mySlidesFadeUIUX{
+        margin-left: 5.5em;
+    }
+
+    .prev{
+        left: 5em;
+    }
+
+    .prevUIUX{
+        left: 5em;
+    }
+
+    .dotUIUXContainer{
+        margin-top: 11.5em;
+        margin-left: 0em;
+    }
+
+    .bottomContenctGlow{
+        margin-left: -11em;
+    }
 }

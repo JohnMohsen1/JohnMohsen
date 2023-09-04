@@ -4552,6 +4552,7 @@ body{
 
 @media screen and (max-width: 450px) {
     body{
+        margin-left: 1em;
         background-image: url('BGs/mobileBG.jpg');
         background-size: 100%;
         background-position-x: 0.5em;

@@ -4796,10 +4796,10 @@ body{
         margin-right: -1.5em;
     }
     body{
-        background-image: url('BGs/mobileBG.jpg');
+        background-image: url('BGs/a52.jpg');
         background-size: 100%;
         background-position-x: 0.5em;
-        background-position-y: 0em;
+        background-position-y: -6em;
     }
 
     /* header container */
@@ -4962,7 +4962,7 @@ body{
 
     .aboutText p {
         width: 160%;
-        margin-left: -2.4em;
+        margin-left: -1.7em;
         font-size: 1.2rem;
     }
 

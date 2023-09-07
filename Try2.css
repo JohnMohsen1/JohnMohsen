@@ -4961,8 +4961,8 @@ body{
     /* about me paragragh */
 
     .aboutText p {
-        width: 135%;
-        margin-left: -1em;
+        width: 150%;
+        margin-left: -0.8em;
         font-size: 1.2rem;
     }
 

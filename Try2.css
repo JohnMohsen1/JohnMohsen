@@ -4822,8 +4822,8 @@ body{
     /* hero text */
 
     .heroText p{
-        margin-left: -2em;
-        width: 25em;
+        margin-left: -0.5em;
+        width: 21em;
     }
 
     /* hero floating graphics */

@@ -4822,7 +4822,7 @@ body{
     /* hero text */
 
     .heroText p{
-        margin-left: -0.5em;
+        margin-left: 0em;
         width: 21em;
     }
 

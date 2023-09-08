@@ -4818,11 +4818,10 @@ body{
         width: 2em;
     }
 
-    
     /* hero text */
 
     .heroText p{
-        margin-left: 0em;
+        margin-left: -1.2em;
         width: 21em;
     }
 

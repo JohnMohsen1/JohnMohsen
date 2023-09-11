@@ -4953,6 +4953,10 @@ body{
         margin: 1em 0em;
     }
 
+    .topBox{
+    left: 20em;
+    }
+
     .compass{
         width: 12%;
         right: 1em;

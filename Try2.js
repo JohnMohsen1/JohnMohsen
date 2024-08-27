@@ -8,15 +8,14 @@ const menuCircle = document.getElementById('menucircle')
 const closeCircle = document.getElementById('closecircle');
 const logo = document.querySelector('.logo');
 const postersBtn = document.getElementById('posters')
-const before =window.getComputedStyle(
-                 document.querySelector('.postersBtn'), '::before');
+const before = window.getComputedStyle(document.querySelector('.postersBtn'), '::before');
 const ui_uxBtn = document.getElementById('ui/ux')
 const pointer = document.querySelector('.pointer')
 const projectsContainer = document.querySelector('.myWorksContainerProjects')
-const uiuxContainer = document.querySelector('.myWorksContainerUIUX')
-const morePostersContainer = document.querySelector('.myWorksContainerProjectsTextLink')
+const uiuxContainer = document.getElementById('myWorksContainerUIUXID');
 const morePosters = document.querySelector('.myWorksContainerProjectsTextLinkA')
 const morePostersBox = document.querySelector('.boxPosters')
+const closeBoxspan = document.getElementById('closeBoxspan')
 const myWorks = document.querySelector('.myWorks')
 
 window.onscroll = function () {
@@ -94,8 +93,10 @@ function postersResult (e) {
   postersBtn.style.textDecorationColor = '#ff4294';
   postersBtn.style.textUnderlineOffset = '0.42em';
   ui_uxBtn.style.textDecoration = 'none';
-  document.querySelector('.beforePostersBtn').style.display = 'none'
+  document.querySelector('.beforePostersBtn').style.display = 'block'
   document.querySelector('.beforeUIUXBtn').style.display = 'none'
+  uiuxContainer.style.display = 'none';
+  
   if($(window).width () <= 1500 && $(window).width () >= 1400){
     pointer.style.width = '5%';
     pointer.style.height = '5%';
@@ -186,8 +187,12 @@ function postersResult (e) {
     pointer.style.top = '-0.5em';
     projectsContainer.style.display = 'flex';
     morePostersContainer.style.display = 'block';
-    uiuxContainer.style.display ='none';
+    uiuxContainer.style.display = 'none'; 
   }
+}
+
+if (postersResult === true){
+  uiuxContainer.style.display = "none";
 }
 
 navUI.addEventListener('click', ui_uxResult1);
@@ -201,10 +206,13 @@ ui_uxBtn.addEventListener('click', ui_uxResult);
 
 function ui_uxResult (e) {
   e.preventDefault();
-  ui_uxBtn.style.textDecoration = 'underline';
+  ui_uxBtn.style.textDecoration = "underline";
   ui_uxBtn.style.textDecorationColor = '#ff4294';
   ui_uxBtn.style.textUnderlineOffset = '0.42em';
   postersBtn.style.textDecoration = 'none'
+  document.querySelector('.beforePostersBtn').style.display = 'none'
+  document.querySelector('.beforeUIUXBtn').style.display = 'block'
+
   if($(window).width () <= 1500 && $(window).width () >= 1400){
     pointer.style.width = '8%';
     pointer.style.height = '8%';
@@ -304,17 +312,17 @@ morePosters.addEventListener('click', morePostersResult);
 
 function morePostersResult (e){
   e.preventDefault();
-  morePostersBox.style.display = 'block';
-  morePostersContainer.style.zIndex = '0'
+  if (e.target = morePosters){
+    morePostersBox.style.display = 'block';
+  }
+
 }
 
-myWorks.addEventListener('click', morePostersResultClose);
+closeBoxspan.addEventListener('click', morePostersResultClose)
 
 function morePostersResultClose (e){
   e.preventDefault();
-  if (e.target = myWorks ){
-    morePostersBox.style.display = 'none';
-  } 
+  morePostersBox.style.display = 'none';
 }
 
 

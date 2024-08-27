@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="Try2.css">
 </head>
 <body>
+    <!--<div class="splashContainer">
+        <canvas class="splash" width="100%" height="100%" ></canvas>
+    </div>-->
     <header class="header"  id="home">
         <img src="hero graphics/Icons/white logo.png" alt="" class="logo">
         <div class="nav">
@@ -39,9 +42,9 @@
             <p>I’m a Graphic designer with a huge motivation 
                 to create something user-friendly and beautiful.</p>
                 <div class="socialMedia" >
-                    <a href="https://www.behance.net/johnmohsen12" target="_blank"><img src="hero graphics/Icons/Vector.png" class="behance" alt=""></a>                                
-                    <a href="https://www.linkedin.com/in/john-mohsen-a50101252?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bu7xU%2Ff0bSbiHEftc9LZQ1A%3D%3D" target="_blank"></a><img src="hero graphics/Icons/Vector-2.png" class="linkedIn" alt="" ></a>
-                    <a href="https://youtube.com/@johndesigns1108" target="_blank"><img src="hero graphics/Icons/Vector-1.png" class="youtube" alt=""></a> 
+                    <a href="https://www.behance.net/johnmohsen12" target="_blank"><img src="hero graphics/Icons/vector.png" class="behance" alt=""></a>                                
+                    <a href="https://www.linkedin.com/in/john-mohsen-a50101252?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bu7xU%2Ff0bSbiHEftc9LZQ1A%3D%3D" target="_blank"></a><img src="hero graphics/Icons/vector-2.png" class="linkedIn" alt="" ></a>
+                    <a href="https://youtube.com/@johndesigns1108" target="_blank"><img src="hero graphics/Icons/vector-1.png" class="youtube" alt=""></a> 
                 </div>
             <a href="#works"><button class="myworkBtn">My Works</button></a>
         </div>
@@ -166,35 +169,36 @@
                 <div class="myWorksContainerProjectsText">
                     <h1>Poster Designs</h1>
                     <p>A small gallery of poster designs for online learning platforms like
-                        E-Teaching and many teachers for more than 3 years. <br><br>
-                        To see more <a href="#myWorks" class="myWorksContainerProjectsTextLinkA" style="text-decoration: none;">CLICK HERE</a></p>
+                        E-teaching and many teachers for more than 3 years. <br><br>
+                        To see more <a class="myWorksContainerProjectsTextLinkA" style="color: blue;
+                                                                                        cursor: pointer;" onclick="morePostersResult()">CLICK HERE</a></p>
                 </div>
 
                 <div class="posterDesigns" >
                     <div class="slideshow-container">
                         <div class="mySlidesFade" >
                                 <div class="numbertext">1 / 5</div>
-                                <img src="hi/darkMode.png">
+                                <img src="myWorksImgs/darkMode.png">
                                 
                         </div>
                         <div class="mySlidesFade">
                                 <div class="numbertext">2 / 5</div>
-                                <img src="hi/ahmadmohsen.png">
+                                <img src="myWorksImgs/ahmadmohsen.png">
                             
                         </div>
                         <div class="mySlidesFade">
                                 <div class="numbertext">3 / 5</div>
-                                <img src="hi/anyTime.png">
+                                <img src="myWorksImgs/eTeachingposter.png">
                                 
                         </div>
                         <div class="mySlidesFade">
                                 <div class="numbertext">4 / 5</div>
-                                <img src="hi/denamo.png">
+                                <img src="myWorksImgs/denamo.png">
                                 
                         </div>
                         <div class="mySlidesFade">
                                 <div class="numbertext">5 / 5</div>
-                                <img src="hi/jRex.png">
+                                <img src="myWorksImgs/jRex.png">
                                 
                         </div>
                         <div class="slidesControlPosters">
@@ -212,37 +216,37 @@
             </div>
             </div>
         
-            <div class="myWorksContainerUIUX">
+            <div class="myWorksContainerUIUX" id="myWorksContainerUIUXID">
                 <div class="myWorksContainerUIUXText">
                         <h1>UI/UX Designs</h1>
                         <p>A small gallery of recent UI/UX projects for different companies and organizations</p>
-                            <p class="myWorksContainerUIUXTextLink"> To see more <a href="https://www.behance.net/johnmohsen12" target="_blank" style="text-decoration: none; color: rgb(0, 0, 238) ;">ON BEHANCE</a></p>
+                            <p class="myWorksContainerUIUXTextLink" > To see more <a href="https://www.behance.net/johnmohsen12" target="_blank" style="text-decoration: none; color: rgb(0, 0, 238) ;">ON BEHANCE</a></p>
                 </div>
                 <div class="UIUXDesigns" >
                     <div class="slideshow-container-uiux">
                         <div class="mySlidesFadeUIUX" >
                                 <div class="numbertextUIUX">1 / 5</div>
-                                <img src="hi/gaming.png">
+                                <img src="myWorksImgs/gaming.png">
                                 
                         </div>
                         <div class="mySlidesFadeUIUX">
                                 <div class="numbertextUIUX">2 / 5</div>
-                                <img src="hi/musicHome.png">
+                                <img src="myWorksImgs/MusicHome.png">
                             
                         </div>
                         <div class="mySlidesFadeUIUX">
                                 <div class="numbertextUIUX">3 / 5</div>
-                                <img src="hi/upwork_mockup-copy.png">
+                                <img src="myWorksImgs/upworkMockupCopy.png">
                                 
                         </div>
                         <div class="mySlidesFadeUIUX">
                                 <div class="numbertextUIUX">4 / 5</div>
-                                <img src="hi/eTeaching.png">
+                                <img src="myWorksImgs/eteaching.png">
                                 
                         </div>
                         <div class="mySlidesFadeUIUX">
                                 <div class="numbertextUIUX">5 / 5</div>
-                                <img src="myWorks imgs/gym.png">
+                                <img src="myWorksImgs/gym.png">
                                 
                         </div>
                         <div class="slidesControlUIUX">
@@ -261,29 +265,40 @@
             </div>
         </div>
     </section>
-    <div class="boxPosters">
-        <h1 style="padding: 0 1em;
+    <div class="boxPosters" style="display: none;">
+       <div style="display: flex;
+                    gap: 40em;
+                    background-color: #222222;
+                    width: 100%;"> 
+            <h1 style="padding: 0 1em;
                     font-family: 'inter';
                     font-weight: 500;">More Of Poster Designs</h1>
+            <span style="color: white;
+                        padding-top: 4.5em;
+                        cursor: pointer;
+                        float: inline-end;
+                        width: 5em;
+                        height: 5em;" id="closeBoxspan">&#x2715;</span>
+        </div>
         <div class="morePostersContainer">
-            <img src="myWorks imgs/anyTime.jpg" alt="">
-            <img src="myWorks imgs/lite.jpg" alt="">
-            <img src="myWorks imgs/bills.jpg" alt="">
-            <img src="myWorks imgs/mohamed ezzat/howToComplete.jpg" alt="">
-            <img src="myWorks imgs/geology.jpg" alt="">
-            <img src="myWorks imgs/forEveryone.jpg" alt="">
-            <img src="myWorks imgs/Untitled-4.jpg" alt="">
-            <img src="myWorks imgs/Sameh.jpg" alt="">
-            <img src="myWorks imgs/startBooking.jpg" alt=""> 
-            <img src="myWorks imgs/mohamed ezzat/funDay.jpg" alt=""> 
-            <img src="myWorks imgs/mohamed ezzat/10K.jpg" alt=""> 
-            <img src="myWorks imgs/mohamed ezzat/lessons5.jpg" alt=""> 
-            <img src="myWorks imgs/mohamed ezzat/Untitled-2.jpg" alt=""> 
-            <img src="myWorks imgs/30000copy.jpg" alt="">
-            <img src="myWorks imgs/mohamed ezzat/solve.jpg" alt=""> 
-            <img src="myWorks imgs/howToKnow.jpg" alt=""> 
-            <img src="myWorks imgs/required.jpg" alt=""> 
-            <img src="myWorks imgs/Untitled-3.jpg" alt=""> 
+            <img src="MyWorksImgs/anyTime.jpg" alt="">
+            <img src="MyWorksImgs/lite.jpg" alt="">
+            <img src="MyWorksImgs/bills.jpg" alt="">
+            <img src="MyWorksImgs/mohamedEzzat/howToComplete.jpg" alt="">
+            <img src="MyWorksImgs/geology.jpg" alt="">
+            <img src="MyWorksImgs/forEveryone.jpg" alt="">
+            <img src="MyWorksImgs/Untitled4.jpg" alt="">
+            <img src="MyWorksImgs/Sameh.jpg" alt="">
+            <img src="MyWorksImgs/startBooking.jpg" alt=""> 
+            <img src="MyWorksImgs/mohamedEzzat/funDay.jpg" alt=""> 
+            <img src="MyWorksImgs/mohamedEzzat/10K.jpg" alt=""> 
+            <img src="MyWorksImgs/mohamedEzzat/lessons5.jpg" alt=""> 
+            <img src="MyWorksImgs/mohamedEzzat/Untitled-2.jpg" alt=""> 
+            <img src="MyWorksImgs/30000copy.jpg" alt="">
+            <img src="MyWorksImgs/mohamedEzzat/solve.jpg" alt=""> 
+            <img src="MyWorksImgs/howToKnow.jpg" alt=""> 
+            <img src="MyWorksImgs/required.jpg" alt=""> 
+            <img src="MyWorksImgs/Untitled3.jpg" alt=""> 
         </div>
     </div>
     <section class="contact" id="contact" >
@@ -301,16 +316,16 @@
                         <p>Email : johnmohsen2022@gmail.com</p>
                         <p class="bottomContentTextView">View More On</p>
                         <div class="bottomContentViewSocialmedia">
-                            <a href="https://www.behance.net/johnmohsen12" target="_blank" ><img src="hero graphics/Icons/Vector.png" alt=""></a>
-                            <a href="https://www.linkedin.com/in/john-mohsen-a50101252?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bu7xU%2Ff0bSbiHEftc9LZQ1A%3D%3D" target="_blank" ><img src="hero graphics/Icons/Vector-2.png" alt=""></a>
-                            <a href="https://youtube.com/@johndesigns1108" target="_blank" ><img src="hero graphics/Icons/Vector-1.png" alt=""></a>
+                            <a href="https://www.behance.net/johnmohsen12" target="_blank" ><img src="hero graphics/Icons/vector.png" alt=""></a>
+                            <a href="https://www.linkedin.com/in/john-mohsen-a50101252?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bu7xU%2Ff0bSbiHEftc9LZQ1A%3D%3D" target="_blank" ><img src="hero graphics/Icons/vector-2.png" alt=""></a>
+                            <a href="https://youtube.com/@johndesigns1108" target="_blank" ><img src="hero graphics/Icons/vector-1.png" alt=""></a>
 
                     </div>
                 </div>
 
         </div>
     </section>
-    <script src="https://unpkg.com/rive-js"></script>
+    <script src="https://unpkg.com/@rive-app/canvas@2.1.0"></script>
 
     <script>
         new rive.Rive({
@@ -319,6 +334,15 @@
             autoplay: true
         });
     </script>
+
+    <script>
+        new rive.Rive({
+            src: 'hero graphics/splash.riv',
+            canvas: document.querySelector('.splash'),
+            autoplay: true
+        })
+    </script>
+    
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
     <script src="Try2.js"></script>
 </body>
